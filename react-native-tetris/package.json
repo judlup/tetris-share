@@ -1,0 +1,27 @@
+{
+  "name": "tetris",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@exponent/vector-icons": "~2.0.0",
+    "babel-preset-exponent": "^1.0.0",
+    "exponent": "~11.0.2",
+    "react": "~15.3.2",
+    "react-native": "github:exponentjs/react-native#sdk-11.0.3"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.3",
+    "jest-react-native": "17.0.3",
+    "react-test-renderer": "15.3.2"
+  },
+  "main": "main.js"
+}
